@@ -1,3 +1,4 @@
+import React from 'react';
 import { createContext, useState, useEffect, useContext } from "react"
 import { fakeFetchAssets, fakeFetchCrypto } from "../api"
 import { percentDifference } from "../utils"
@@ -10,7 +11,7 @@ const CryptoContext = createContext({
 
 export function CryptoContextProvider({ children }) {
   const [loading, setLoading] = useState(false)
-  const [crypto, setCrypto] = useState([])
+  const [crypto, setCrypto] = useState<Crypto[]>([])
   const [assets, setAssets] = useState([])
 
   function mapAssets(assets, result) {

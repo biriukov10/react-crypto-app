@@ -1,3 +1,4 @@
+import React from 'react';
 import { Layout, Select, Space, Button, Modal, Drawer } from 'antd';
 import { useCrypto } from '../../context/crypto-context';
 import { useEffect, useState } from 'react';

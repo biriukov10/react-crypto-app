@@ -1,3 +1,5 @@
+
+import React from 'react';
 import { Layout, Card, Statistic, List, Tag, Typography } from 'antd';
 import { ArrowUpOutlined, ArrowDownOutlined } from '@ant-design/icons';
 import { capitalize } from "../../utils"

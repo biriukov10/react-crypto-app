@@ -1,3 +1,4 @@
+import React from 'react';
 import { Layout, Spin } from 'antd';
 import AppHeader from './AppHeader';
 import AppSide from './AppSider';

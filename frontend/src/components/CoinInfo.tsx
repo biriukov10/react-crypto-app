@@ -1,6 +1,7 @@
+import React from 'react';
 import { Flex, Typography, Divider } from "antd"
 
-export default function CoinInfo({ coin, withSymbol }) {
+export default function CoinInfo({ coin, withSymbol = false }) {
   return (
     <>
       <Flex align='center'>

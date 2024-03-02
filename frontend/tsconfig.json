@@ -1,0 +1,11 @@
+
+{
+  "compilerOptions": {
+    "outDir": "./src/",
+    "module": "ES2020",
+    "target": "ES6",
+    "jsx": "react",
+    "allowJs": true
+  },
+  "include": ["./src/**/*"]
+}

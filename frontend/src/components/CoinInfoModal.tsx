@@ -1,3 +1,5 @@
+
+import React from 'react';
 import { Tag, Typography, Divider } from 'antd';
 import CoinInfo from './CoinInfo';
 

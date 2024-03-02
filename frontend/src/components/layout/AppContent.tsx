@@ -1,3 +1,4 @@
+import React from 'react';
 import { Layout, Typography } from "antd"
 import { useCrypto } from "../../context/crypto-context"
 import { Chart } from "./Chart";
